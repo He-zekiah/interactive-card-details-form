@@ -1,0 +1,193 @@
+@import url(https://fonts.google.com/specimen/Space+Grotesk);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Space Grotesk;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bg-main-desktop.png);
+    background-repeat: no-repeat;
+}
+
+.content {
+    width: 100vw;
+    /* height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#con__img2 {
+    width: 400px;
+}
+
+#con__img3 {
+    width: 400px;
+    position: absolute;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 200px;
+    margin-right: 200px;
+}
+
+.card1 {
+    position: relative;
+    margin-bottom: 50px; 
+    top: 30px; 
+}
+
+.code {
+    color: hsl(270, 3%, 87%);
+    position: relative;
+    left: 120%;
+    top: 100px;
+}
+
+.front {
+    position: absolute;
+    padding: 20px;
+    width: 400px;
+}
+
+.acc {
+    
+    color: #fff;
+    font-size: 35px;
+    margin-left: 60px;
+    
+}
+
+.app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    width: 350px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 75px;
+    margin-left: 50px;
+}
+
+.back {
+    padding: 20px;
+    margin-left: 50px;
+    
+
+}
+
+.card2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.type {
+    color: #fff;
+    font-size: 12px;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.info {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.details {
+    margin-top: 15px;
+}
+
+.name {
+    text-align: left;
+    font-size: 10px;
+    font-weight: bolder;
+}
+
+.name1 {
+    padding: 5px;
+    font-size: 13px;
+    margin-top: 5px;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid hsl(270, 3%, 87%);
+    border-radius: 8px;
+    color: hsl(270, 3%, 87%);
+}
+
+.name2 {
+    padding: 5px;
+    font-size: 13px;
+    margin-top: 5px;
+    width: 48px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid hsl(270, 3%, 87%);
+    border-radius: 8px;
+    color: hsl(270, 3%, 87%);
+}
+
+.name3 {
+    padding: 5px;
+    font-size: 13px;
+    margin-top: 5px;
+    width: 190px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid hsl(270, 3%, 87%);
+    border-radius: 8px;
+    color: hsl(270, 3%, 87%);
+}
+
+
+.bottom {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dur {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.dur2 {
+    width: 140px;
+}
+
+.click {
+    background-color: hsl(278, 68%, 11%);
+    border-radius: 8px;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.yes {
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
