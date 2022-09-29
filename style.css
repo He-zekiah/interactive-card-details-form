@@ -15,10 +15,11 @@
     align-items: center;
     background-image: url(./images/bg-main-desktop.png);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .content {
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -198,6 +199,7 @@
         flex-direction: column;
         background-image: url(./images/bg-main-mobile.png);
         background-repeat: no-repeat;
+        background-size: contain;
         padding-top: 30px;
         padding-bottom: 30px;
         overflow: auto;
@@ -219,9 +221,8 @@
     
     .con__img3 {
         width: 250px;
-        top: 50px;
-        right: 8px;
-        position: absolute;
+        top: 45px;
+        right: 28%;
     }
     
     .card {
@@ -239,11 +240,12 @@
         top: 60px;
         right: 20px;
         position: relative;
+        z-index: 2;
     }
 
     .code {
-        color: #fff;
-        position: relative;
+        top: -10.2em;
+        left: 14em;
     }
 
     .logo {
@@ -270,10 +272,7 @@
 
     .front {
         position: absolute;
-    }
-
-    .back {
-        /* position: absolute; */
+        z-index: 1;
     }
 
     .name {
@@ -320,5 +319,27 @@
     .yes {
         font-size: 20px;
         padding: 5px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .con__img3 {
+        right: 4%;
+    }
+
+    .code {
+        left: 16em;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .code {
+        left: 14.5em
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .code {
+        left: 13em
     }
 }
